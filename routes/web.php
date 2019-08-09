@@ -65,3 +65,6 @@ Route::get('admin/hotels/edit-hotel', function () {
 Route::get('admin/hotels/view-hotel', function () {
     return view('admin/hotels/view-hotel');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
