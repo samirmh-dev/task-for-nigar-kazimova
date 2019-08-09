@@ -1,14 +1,1892 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e9d925a2-4974-4c77-859c-fda1f22b7e17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/admin/css/slim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/css/slim.header-one.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/css/slim.header-two.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/css/slim.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/css/slim.one.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/icon1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/icon2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/img9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/landing1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/landing10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/landing2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/landing3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/landing4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/landing5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/landing6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/landing7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/landing8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/img/landing9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/ResizeSensor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/chart.chartist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/chart.chartjs.dark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/chart.chartjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/chart.echarts.dark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/chart.echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/chart.flot.dark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/chart.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/chart.morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/chart.peity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/chart.rickshaw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/chart.sparkline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/jquery.vmap.sampledata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/map.apple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/map.bluewater.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/map.mapbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/map.shadesofgray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/map.shiftworker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/js/widgets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/landing/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/Flot/js/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/Flot/js/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/Flot/js/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/Ionicons/css/ionicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/Ionicons/fonts/ionicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/Ionicons/fonts/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/Ionicons/fonts/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/Ionicons/fonts/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/Jcrop/css/Jcrop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/Jcrop/js/Jcrop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/SpinKit/css/spinkit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap-tagsinput/css/bootstrap-tagsinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap-tagsinput/js/bootstrap-tagsinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap/map/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap/map/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap/map/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap/map/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap/map/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap/map/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap/map/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap/map/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap/map/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/bootstrap/map/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/chart.js/js/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/chartist/css/chartist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/chartist/js/chartist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/d3/js/d3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/datatables-responsive/js/dataTables.responsive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/datatables-responsive/scss/responsive.dataTables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/datatables/css/jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/datatables/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/datatables/png/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/datatables/png/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/datatables/png/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/datatables/png/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/datatables/png/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/echarts/js/echarts-en.common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/echarts/js/echarts-en.common.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/echarts/js/echarts-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/echarts/js/echarts-en.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/echarts/js/echarts-en.simple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/echarts/js/echarts-en.simple.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/echarts/js/echarts.common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/echarts/js/echarts.common.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/echarts/js/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/echarts/js/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/echarts/js/echarts.simple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/echarts/js/echarts.simple.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/echarts/map/echarts-en.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/echarts/map/echarts.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/eve-raphael/js/eve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/css/flag-icon.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ae.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/af.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ai.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/al.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/am.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ao.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/aq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/as.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/at.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/au.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/aw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ax.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/az.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ba.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/bb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/bd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/be.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/bf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/bh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/bi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/bj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/bl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/bm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/bn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/bo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/bq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/br.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/bs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/bt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/bv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/bw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/by.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/bz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ca.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/cc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/cd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/cf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/cg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ci.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ck.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/cl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/cm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/cn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/co.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/cr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/cu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/cv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/cw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/cx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/cy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/cz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/de.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/dj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/dk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/dm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/do.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/dz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ec.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ee.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/eg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/eh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/er.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/es-ct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/es.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/et.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/eu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/fi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/fj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/fk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/fm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/fo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/fr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ga.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/gb-eng.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/gb-nir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/gb-sct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/gb-wls.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/gb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/gd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/gf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/gg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/gh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/gi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/gl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/gm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/gn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/gp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/gq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/gr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/gs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/gt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/gu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/gw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/gy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/hk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/hm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/hn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/hr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ht.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/hu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/id.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/il.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/im.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/io.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/iq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/is.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/it.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/je.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/jm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/jo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/jp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ke.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/kg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/kh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ki.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/km.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/kn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/kp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/kr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/kw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ky.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/kz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/la.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/lb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/lc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/li.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/lk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/lr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ls.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/lt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/lu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/lv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ly.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ma.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/mc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/md.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/me.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/mf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/mg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/mh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/mk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ml.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/mm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/mn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/mo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/mp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/mq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/mr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/mt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/mu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/mv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/mw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/mx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/my.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/mz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/na.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/nc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ne.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/nf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ng.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ni.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/nl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/np.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/nr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/nu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/nz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/om.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/pa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/pe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/pf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/pg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/pk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/pl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/pm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/pn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/pr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/pt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/pw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/py.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/qa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/re.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/rs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ru.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/rw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/sa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/sb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/sc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/sd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/se.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/sg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/sh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/si.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/sj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/sk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/sl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/sm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/sn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/so.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/sr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/st.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/sv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/sx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/sy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/sz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/tc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/td.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/tf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/tg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/th.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/tj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/tk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/tl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/tm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/tn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/to.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/tr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/tt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/tw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/tz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ua.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/um.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/un.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/us.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/uy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/uz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/va.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/vc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ve.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/vg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/vi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/vn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/vu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/wf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ws.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/ye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/yt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/za.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/zm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/1x1/zw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ae.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/af.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ai.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/al.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/am.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ao.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/aq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/as.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/at.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/au.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/aw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ax.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/az.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ba.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/bb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/bd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/be.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/bf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/bh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/bi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/bj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/bl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/bm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/bn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/bo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/bq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/br.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/bs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/bt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/bv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/bw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/by.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/bz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ca.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/cc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/cd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/cf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/cg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ci.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ck.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/cl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/cm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/cn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/co.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/cr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/cu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/cv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/cw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/cx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/cy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/cz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/de.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/dj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/dk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/dm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/do.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/dz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ec.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ee.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/eg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/eh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/er.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/es-ct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/es.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/et.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/eu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/fi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/fj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/fk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/fm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/fo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/fr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ga.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/gb-eng.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/gb-nir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/gb-sct.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/gb-wls.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/gb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/gd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/gf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/gg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/gh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/gi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/gl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/gm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/gn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/gp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/gq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/gr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/gs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/gt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/gu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/gw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/gy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/hk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/hm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/hn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/hr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ht.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/hu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/id.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/il.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/im.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/io.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/iq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ir.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/is.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/it.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/je.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/jm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/jo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/jp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ke.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/kg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/kh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ki.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/km.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/kn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/kp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/kr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/kw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ky.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/kz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/la.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/lb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/lc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/li.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/lk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/lr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ls.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/lt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/lu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/lv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ly.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ma.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/mc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/md.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/me.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/mf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/mg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/mh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/mk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ml.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/mm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/mn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/mo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/mp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/mq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/mr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/mt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/mu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/mv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/mw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/mx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/my.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/mz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/na.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/nc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ne.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/nf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ng.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ni.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/nl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/no.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/np.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/nr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/nu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/nz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/om.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/pa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/pe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/pf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/pg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/pk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/pl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/pm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/pn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/pr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/pt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/pw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/py.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/qa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/re.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/rs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ru.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/rw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/sa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/sb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/sc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/sd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/se.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/sg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/sh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/si.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/sj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/sk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/sl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/sm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/sn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/so.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/sr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/st.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/sv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/sx.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/sy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/sz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/tc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/td.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/tf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/tg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/th.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/tj.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/tk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/tl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/tm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/tn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/to.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/tr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/tt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/tv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/tw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/tz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ua.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/um.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/un.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/us.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/uy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/uz.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/va.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/vc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ve.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/vg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/vi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/vn.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/vu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/wf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ws.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/ye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/yt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/za.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/zm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flag-icon-css/flags/4x3/zw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/flot-spline/js/jquery.flot.spline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/fullcalendar/css/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/fullcalendar/js/fullcalendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/gmaps/js/gmaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/highlightjs/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/highlightjs/css/dracula.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/highlightjs/css/github.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/highlightjs/js/highlight.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/ion.rangeSlider/css/ion.rangeSlider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/ion.rangeSlider/css/ion.rangeSlider.skinFlat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/ion.rangeSlider/css/ion.rangeSlider.skinHTML5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/ion.rangeSlider/css/ion.rangeSlider.skinModern.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/ion.rangeSlider/css/ion.rangeSlider.skinNice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/ion.rangeSlider/css/ion.rangeSlider.skinSimple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/ion.rangeSlider/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/ion.rangeSlider/img/sprite-skin-flat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/ion.rangeSlider/img/sprite-skin-modern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/ion.rangeSlider/img/sprite-skin-nice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/ion.rangeSlider/img/sprite-skin-simple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/ion.rangeSlider/js/ion.rangeSlider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/ion.rangeSlider/js/ion.rangeSlider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jquery-toggles/css/toggles-full.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jquery-toggles/js/toggles.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jquery-ui/js/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jquery.cookie/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jquery.maskedinput/js/jquery.maskedinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jquery.sparkline.bower/js/jquery.sparkline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jquery.steps/css/jquery.steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jquery.steps/js/jquery.steps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jquery/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/css/jqvmap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/css/jqvmap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.africa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.algeria.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.argentina.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.asia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.australia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.brazil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.canada.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.europe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.france.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.germany.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.greece.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.iran.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.iraq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.north-america.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.russia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.south-america.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.tunisia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.turkey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.usa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jqvmap/js/jquery.vmap.world.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jt.timepicker/css/jquery.timepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/jt.timepicker/js/jquery.timepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/leaflet/css/leaflet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/leaflet/images/layers-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/leaflet/images/layers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/leaflet/images/marker-icon-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/leaflet/images/marker-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/leaflet/images/marker-shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/leaflet/js/leaflet-src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/medium-editor/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/medium-editor/css/medium-editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/medium-editor/js/medium-editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/mocha/js/mocha.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/moment/js/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/morris.js/css/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/morris.js/js/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/parsleyjs/js/parsley.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/peity/js/jquery.peity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/perfect-scrollbar/css/perfect-scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/perfect-scrollbar/css/perfect-scrollbar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/perfect-scrollbar/js/perfect-scrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/perfect-scrollbar/js/perfect-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/popper.js/js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/raphael/js/raphael.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/rickshaw/css/rickshaw.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/rickshaw/css/rickshaw.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/rickshaw/js/rickshaw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/rickshaw/js/rickshaw.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/select2/css/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/select2/js/select2.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/select2/js/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/spectrum/css/spectrum.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/spectrum/js/spectrum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/summernote/css/summernote-bs4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/summernote/css/summernote-lite.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/summernote/css/summernote.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/summernote/font/summernote.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/summernote/font/summernote.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/summernote/font/summernote.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/summernote/js/summernote-bs4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/summernote/js/summernote-bs4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/summernote/js/summernote-lite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/summernote/js/summernote.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/summernote/js/summernote.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/summernote/map/summernote-bs4.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/summernote/map/summernote-lite.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/summernote/map/summernote.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/summernote/zip/summernote-0.8.9-dist.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/superfish/css/superfish.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/superfish/js/hoverIntent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/lib/superfish/js/superfish.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/chart-chartist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/chart-chartjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/chart-echarts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/chart-flot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/chart-morris.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/chart-peity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/chart-rickshaw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/chart-sparkline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/elem-accordion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/elem-alerts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/elem-buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/elem-cards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/elem-carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/elem-dropdowns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/elem-icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/elem-images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/elem-lists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/elem-media.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/elem-modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/elem-navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/elem-pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/elem-popover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/elem-progress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/elem-spinner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/elem-tooltip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/elem-typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/form-datepicker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/form-editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/form-elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/form-layouts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/form-rangeslider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/form-select2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/form-validation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/form-wizards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/index50.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/map-google.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/map-leaflet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/map-vector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/page-404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/page-500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/page-503.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/page-505.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/page-calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/page-contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/page-file-manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/page-invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/page-messages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/page-pricing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/page-pricing2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/page-pricing3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/page-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/page-signin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/page-signin2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/page-signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/page-signup2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/page-timeline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/util-background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/util-border.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/util-height.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/util-margin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/util-padding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/util-position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/util-typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/util-width.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark-rtl/widgets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/chart-chartist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/chart-chartjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/chart-echarts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/chart-flot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/chart-morris.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/chart-peity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/chart-rickshaw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/chart-sparkline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/elem-accordion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/elem-alerts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/elem-buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/elem-cards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/elem-carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/elem-dropdowns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/elem-icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/elem-images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/elem-lists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/elem-media.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/elem-modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/elem-navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/elem-pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/elem-popover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/elem-progress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/elem-spinner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/elem-tooltip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/elem-typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/form-datepicker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/form-editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/form-elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/form-layouts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/form-rangeslider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/form-select2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/form-validation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/form-wizards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/index50.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/map-google.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/map-leaflet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/map-vector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/page-404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/page-500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/page-503.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/page-505.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/page-calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/page-contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/page-file-manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/page-invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/page-messages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/page-pricing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/page-pricing2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/page-pricing3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/page-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/page-signin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/page-signin2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/page-signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/page-signup2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/page-timeline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/util-background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/util-border.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/util-height.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/util-margin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/util-padding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/util-position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/util-typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/util-width.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-dark/widgets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/chart-chartist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/chart-chartjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/chart-echarts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/chart-flot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/chart-morris.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/chart-peity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/chart-rickshaw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/chart-sparkline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/elem-accordion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/elem-alerts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/elem-buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/elem-cards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/elem-carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/elem-dropdowns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/elem-icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/elem-images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/elem-lists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/elem-media.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/elem-modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/elem-navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/elem-pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/elem-popover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/elem-progress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/elem-spinner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/elem-tooltip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/elem-typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/form-datepicker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/form-editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/form-elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/form-layouts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/form-rangeslider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/form-select2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/form-validation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/form-wizards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/index50.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/map-google.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/map-leaflet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/map-vector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/page-404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/page-500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/page-503.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/page-505.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/page-calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/page-contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/page-file-manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/page-invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/page-messages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/page-pricing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/page-pricing2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/page-pricing3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/page-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/page-signin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/page-signin2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/page-signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/page-signup2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/page-timeline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/util-background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/util-border.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/util-height.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/util-margin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/util-padding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/util-position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/util-typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/util-width.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar-rtl/widgets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/chart-chartist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/chart-chartjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/chart-echarts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/chart-flot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/chart-morris.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/chart-peity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/chart-rickshaw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/chart-sparkline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/elem-accordion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/elem-alerts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/elem-buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/elem-cards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/elem-carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/elem-dropdowns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/elem-icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/elem-images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/elem-lists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/elem-media.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/elem-modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/elem-navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/elem-pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/elem-popover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/elem-progress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/elem-spinner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/elem-tooltip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/elem-typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/form-datepicker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/form-editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/form-elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/form-layouts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/form-rangeslider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/form-select2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/form-validation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/form-wizards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/index50.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/map-google.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/map-leaflet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/map-vector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/page-404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/page-500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/page-503.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/page-505.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/page-calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/page-contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/page-file-manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/page-invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/page-messages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/page-pricing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/page-pricing2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/page-pricing3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/page-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/page-signin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/page-signin2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/page-signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/page-signup2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/page-timeline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/util-background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/util-border.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/util-height.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/util-margin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/util-padding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/util-position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/util-typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/util-width.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/sidebar/widgets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/chart-chartist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/chart-chartjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/chart-echarts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/chart-flot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/chart-morris.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/chart-peity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/chart-rickshaw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/chart-sparkline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/elem-accordion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/elem-alerts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/elem-buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/elem-cards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/elem-carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/elem-dropdowns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/elem-icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/elem-images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/elem-lists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/elem-media.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/elem-modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/elem-navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/elem-pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/elem-popover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/elem-progress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/elem-spinner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/elem-tooltip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/elem-typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/form-datepicker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/form-editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/form-elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/form-layouts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/form-rangeslider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/form-select2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/form-validation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/form-wizards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/map-google.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/map-leaflet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/map-vector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/page-404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/page-500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/page-503.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/page-505.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/page-calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/page-contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/page-file-manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/page-invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/page-messages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/page-pricing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/page-pricing2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/page-pricing3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/page-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/page-signin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/page-signin2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/page-signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/page-signup2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/page-timeline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/table-basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/table-datatable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/util-background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/util-border.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/util-height.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/util-margin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/util-padding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/util-position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/util-typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/util-width.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark-rtl/widgets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/chart-chartist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/chart-chartjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/chart-echarts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/chart-flot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/chart-morris.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/chart-peity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/chart-rickshaw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/chart-sparkline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/elem-accordion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/elem-alerts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/elem-buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/elem-cards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/elem-carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/elem-dropdowns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/elem-icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/elem-images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/elem-lists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/elem-media.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/elem-modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/elem-navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/elem-pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/elem-popover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/elem-progress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/elem-spinner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/elem-tooltip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/elem-typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/form-datepicker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/form-editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/form-elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/form-layouts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/form-rangeslider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/form-select2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/form-validation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/form-wizards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/map-google.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/map-leaflet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/map-vector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/page-404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/page-500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/page-503.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/page-505.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/page-calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/page-contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/page-file-manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/page-invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/page-messages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/page-pricing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/page-pricing2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/page-pricing3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/page-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/page-signin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/page-signin2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/page-signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/page-signup2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/page-timeline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/table-basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/table-datatable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/util-background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/util-border.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/util-height.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/util-margin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/util-padding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/util-position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/util-typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/util-width.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-dark/widgets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/chart-chartist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/chart-chartjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/chart-echarts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/chart-flot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/chart-morris.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/chart-peity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/chart-rickshaw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/chart-sparkline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/elem-accordion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/elem-alerts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/elem-buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/elem-cards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/elem-carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/elem-dropdowns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/elem-icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/elem-images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/elem-lists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/elem-media.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/elem-modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/elem-navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/elem-pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/elem-popover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/elem-progress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/elem-spinner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/elem-tooltip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/elem-typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/form-datepicker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/form-editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/form-elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/form-layouts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/form-rangeslider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/form-select2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/form-validation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/form-wizards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/map-google.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/map-leaflet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/map-vector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/page-404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/page-500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/page-503.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/page-505.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/page-calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/page-contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/page-file-manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/page-invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/page-messages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/page-pricing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/page-pricing2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/page-pricing3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/page-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/page-signin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/page-signin2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/page-signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/page-signup2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/page-timeline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/table-basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/table-datatable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/util-background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/util-border.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/util-height.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/util-margin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/util-padding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/util-position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/util-typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/util-width.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template-rtl/widgets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/chart-chartist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/chart-chartjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/chart-echarts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/chart-flot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/chart-morris.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/chart-peity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/chart-rickshaw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/chart-sparkline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/elem-accordion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/elem-alerts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/elem-buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/elem-cards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/elem-carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/elem-dropdowns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/elem-icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/elem-images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/elem-lists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/elem-media.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/elem-modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/elem-navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/elem-pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/elem-popover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/elem-progress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/elem-spinner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/elem-tooltip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/elem-typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/form-datepicker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/form-editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/form-elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/form-layouts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/form-rangeslider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/form-select2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/form-validation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/form-wizards.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/index5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/map-google.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/map-leaflet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/map-vector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/page-404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/page-500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/page-503.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/page-505.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/page-calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/page-contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/page-file-manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/page-invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/page-messages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/page-pricing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/page-pricing2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/page-pricing3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/page-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/page-signin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/page-signin2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/page-signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/page-signup2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/page-timeline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/table-basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/table-datatable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/util-background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/util-border.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/util-height.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/util-margin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/util-padding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/util-position.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/util-typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/util-width.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin/template/widgets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/font-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Simple-Line-Icons.dev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Simple-Line-Icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Simple-Line-Icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Simple-Line-Icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Simple-Line-Icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/arca-heavy-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/arca-heavy-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/arca-heavy-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/arca-heavy-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/arca-heavy-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/font-icons-snapchat.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/font-icons-snapchat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/font-icons-snapchat.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/font-icons-snapchat.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/font-icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/font-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/font-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/font-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/lined-icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/lined-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/lined-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/lined-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/travel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotels/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotels/2-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotels/2-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotels/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotels/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotels/4-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotels/4-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotels/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hotels/page-title.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/slider/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/slider/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/slider/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/flights/create-flight.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/flights/edit-flight.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/flights/list-flight.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/flights/view-flight.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/settings.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/flight-results.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/hotel-results.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/safaroff.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/safaroff.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-105" />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/flights/list-flight.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+              <folding>
+                <element signature="n#style#0;n#a#1;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/flights/edit-flight.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="107" column="43" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/control-panel-template/template/form-validation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="347" column="61" selection-start-line="347" selection-start-column="51" selection-end-line="347" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/control-panel-template/template/form-editor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="412" column="57" lean-forward="true" selection-start-line="412" selection-start-column="20" selection-end-line="412" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/control-panel-template/template/form-elements.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="420" column="20" selection-start-line="417" selection-start-column="14" selection-end-line="420" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/control-panel-template/template/elem-icons.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="555" column="116" selection-start-line="555" selection-start-column="84" selection-end-line="555" selection-end-column="116" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fc-datepicker</find>
+      <find>jquery</find>
+      <find>datepicker</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/resources/views/admin/create-flight.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/list-flight.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/flights/create-flight.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/flights/list-flight.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/flights/edit-flight.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="827" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="safaroff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="safaroff" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="safaroff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="safaroff" type="462c0819:PsiDirectoryNode" />
+              <item name="control-panel-template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="safaroff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="safaroff" type="462c0819:PsiDirectoryNode" />
+              <item name="control-panel-template" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="safaroff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="safaroff" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="safaroff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="safaroff" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="safaroff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="safaroff" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="safaroff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="safaroff" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="safaroff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="safaroff" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="flights" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="safaroff" type="b2602c69:ProjectViewProjectNode" />
+              <item name="safaroff" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/admin/flights" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/admin/flights" />
+      <recent name="$PROJECT_DIR$/resources/views/admin" />
+      <recent name="$PROJECT_DIR$/public/admin" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9d925a2-4974-4c77-859c-fda1f22b7e17" name="Default Changelist" comment="" />
+      <created>1565253496353</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565253496353</updated>
+      <workItem from="1565253498362" duration="609000" />
+      <workItem from="1565254465221" duration="12645000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13254000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="827" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292517" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3292517" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/html-template/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/flight-results.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3814" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/css/slim.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/admin/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5570">
+          <caret line="13" column="39" selection-end-line="733" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/settings.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1651" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="84" column="72" selection-start-line="84" selection-start-column="34" selection-end-line="84" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control-panel-template/template/table-basic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10789">
+          <caret line="378" column="8" lean-forward="true" selection-start-line="378" selection-start-column="8" selection-end-line="426" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control-panel-template/template/table-datatable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19595" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control-panel-template/template/elem-buttons.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="490" column="35" lean-forward="true" selection-start-line="484" selection-start-column="12" selection-end-line="490" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control-panel-template/template/elem-icons.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="555" column="116" selection-start-line="555" selection-start-column="84" selection-end-line="555" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control-panel-template/template/form-datepicker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="386" column="65" lean-forward="true" selection-start-line="386" selection-start-column="65" selection-end-line="386" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-105" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control-panel-template/template/form-editor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="412" column="57" lean-forward="true" selection-start-line="412" selection-start-column="20" selection-end-line="412" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control-panel-template/template/form-validation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="347" column="61" selection-start-line="347" selection-start-column="51" selection-end-line="347" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control-panel-template/template/form-elements.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="420" column="20" selection-start-line="417" selection-start-column="14" selection-end-line="420" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/flights/view-flight.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/flights/create-flight.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="167" column="111" selection-start-line="167" selection-start-column="111" selection-end-line="167" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/flights/list-flight.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="n#style#0;n#a#1;n#td#8;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/flights/edit-flight.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="107" column="43" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
