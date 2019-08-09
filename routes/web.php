@@ -47,3 +47,21 @@ Route::get('admin/flights/edit-flight', function () {
 Route::get('admin/flights/view-flight', function () {
     return view('admin/flights/view-flight');
 });
+
+// admin - hotels
+
+Route::get('admin/hotels/list-hotel', function () {
+    return view('admin/hotels/list-hotel');
+});
+
+Route::get('admin/hotels/create-hotel', function () {
+    return view('admin/hotels/create-hotel');
+});
+
+Route::get('admin/hotels/edit-hotel', function () {
+    return view('admin/hotels/edit-hotel');
+});
+
+Route::get('admin/hotels/view-hotel', function () {
+    return view('admin/hotels/view-hotel');
+});
