@@ -31,45 +31,21 @@
                     </tr>
                     </thead>
                     <tbody>
+                    @foreach($hotels as $hotel)
                     <tr>
-                        <th scope="row">1</th>
-                        <td>Company</td>
-                        <td>Airplane type</td>
-                        <td>Dep. time</td>
-                        <td>Ar. time</td>
-                        <td>Price</td>
+                        <th scope="row">{{ $hotel->id }}</th>
+                        <td>{{ $hotel->hotel_name }}</td>
+                        <td>{{ $hotel->stars }}</td>
+                        <td>{{ $hotel->city }}</td>
+                        <td>{{ $hotel->latitude }}, {{ $hotel->longitude }}</td>
+                        <td>{{ $hotel->price }}</td>
                         <td>
-                            <a href="{{ url('admin/hotels/view-hotel') }}" style="margin-right: 10px"><i class="fa fa-eye"></i></a>
-                            <a href="{{ url('admin/hotels/edit-hotel') }}" style="margin-right: 10px"><i class="fa fa-pencil"></i></a>
-                            <a href="#" style="margin-right: 10px"><i class="icon ion-trash-a"></i></a>
+                            <a href="{{ url('admin/hotels/view-hotel/'.$hotel->id) }}" style="margin-right: 10px"><i class="fa fa-eye"></i></a>
+                            <a href="{{ url('admin/hotels/edit-hotel/'.$hotel->id) }}" style="margin-right: 10px"><i class="fa fa-pencil"></i></a>
+                            <a class="delete-link" href="javascript:void(0);" data-url="{{url('admin/hotels/list-hotel/'.$hotel->id)}}" data-return-url="{{url('admin/hotels/list-hotel/')}}" style="margin-right: 10px"><i class="icon ion-trash-a"></i></a>
                         </td>
                     </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Company</td>
-                        <td>Airplane type</td>
-                        <td>Dep. time</td>
-                        <td>Ar. time</td>
-                        <td>Price</td>
-                        <td>
-                            <a href="#" style="margin-right: 10px"><i class="fa fa-eye"></i></a>
-                            <a href="#" style="margin-right: 10px"><i class="fa fa-pencil"></i></a>
-                            <a href="#" style="margin-right: 10px"><i class="icon ion-trash-a"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Company</td>
-                        <td>Airplane type</td>
-                        <td>Dep. time</td>
-                        <td>Ar. time</td>
-                        <td>Price</td>
-                        <td>
-                            <a href="#" style="margin-right: 10px"><i class="fa fa-eye"></i></a>
-                            <a href="#" style="margin-right: 10px"><i class="fa fa-pencil"></i></a>
-                            <a href="#" style="margin-right: 10px"><i class="icon ion-trash-a"></i></a>
-                        </td>
-                    </tr>
+                    @endforeach
                     </tbody>
                 </table>
             </div><!-- table-responsive -->

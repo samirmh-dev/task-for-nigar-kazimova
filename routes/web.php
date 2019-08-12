@@ -48,21 +48,18 @@ Route::delete('admin/flights/list-flight/{id}', 'Admin\FlightsController@destroy
 
 // admin - hotels
 
-Route::get('admin/hotels/list-hotel', function () {
-    return view('admin/hotels/list-hotel');
-});
+Route::get('admin/hotels/list-hotel', 'Admin\HotelsController@index');
 
-Route::get('admin/hotels/create-hotel', function () {
-    return view('admin/hotels/create-hotel');
-});
+Route::get('admin/hotels/create-hotel', 'Admin\HotelsController@create');
 
-Route::get('admin/hotels/edit-hotel', function () {
-    return view('admin/hotels/edit-hotel');
-});
+Route::post('admin/hotels/list-hotel', 'Admin\HotelsController@store');
 
-Route::get('admin/hotels/view-hotel', function () {
-    return view('admin/hotels/view-hotel');
-});
-Auth::routes();
+Route::get('admin/hotels/view-hotel/{id}', 'Admin\HotelsController@show');
+
+Route::get('admin/hotels/edit-hotel/{id}', 'Admin\HotelsController@edit');
+
+Route::put('admin/hotels/list-hotel/{id}', 'Admin\HotelsController@update');
+
+Route::delete('admin/hotels/list-hotel/{id}', 'Admin\HotelsController@destroy');
 
 Route::get('/home', 'HomeController@index')->name('home');

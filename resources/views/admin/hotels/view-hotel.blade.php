@@ -13,79 +13,16 @@
             <h6 class="slim-pagetitle">Create Flights</h6>
         </div><!-- slim-pageheader -->
 
-        <form action="form-validation.html" data-parsley-validate>
-            <div class="row no-gutters wd-300">
-                <div class="col-md-12">
-                    <div class="form-group mg-t--1 mg-md-t-0">
-                        <label>Company name: <span class="tx-danger">*</span></label>
-                        <input type="text" name="company-name" class="form-control wd-250" placeholder="Hogwarts..." required>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="form-group mg-t--1 mg-md-t-0">
-                        <label>Airplane type: <span class="tx-danger">*</span></label>
-                        <input type="text" name="airplane-type" class="form-control wd-250" placeholder="Broom..." required>
-                    </div>
-                </div>
-                <div class="col-md-12 mg-b-30">
-                    <label>Departure time: <span class="tx-danger">*</span></label>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text">
-                                <i class="icon ion-calendar tx-16 lh-0 op-6"></i>
-                            </div>
-                        </div>
-                        <input type="text" class="form-control fc-datepicker" placeholder="MM/DD/YYYY">
-                    </div>
-                </div>
-                <div class="col-md-12 mg-b-30">
-                    <label>Arrival time:</label>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text">
-                                <i class="icon ion-calendar tx-16 lh-0 op-6"></i>
-                            </div>
-                        </div>
-                        <input type="text" class="form-control fc-datepicker" placeholder="MM/DD/YYYY">
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="form-group mg-t--1 mg-md-t-0">
-                        <label>Price: <span class="tx-danger">*</span></label>
-                        <input type="text" name="airplane-type" class="form-control wd-250" placeholder="How much galleons?" required>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="form-group mg-t--1 mg-md-t-0">
-                        <label>Destination Point: <span class="tx-danger"></span></label>
-                        <input type="text" name="airplane-type" class="form-control wd-250" placeholder="Amsterdam..." required>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="form-group mg-t--1 mg-md-t-0">
-                        <label>Departure Point: <span class="tx-danger"></span></label>
-                        <input type="text" name="airplane-type" class="form-control wd-250" placeholder="Baku..." required>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <div class="form-group mg-t--1 mg-md-t-0">
-                        <label>Passengers: <span class="tx-danger"></span></label>
-                        <input type="number" name="airplane-type" class="form-control wd-250" placeholder="2..." required>
-                    </div>
-                </div>
-            </div>
-            <div class="row no-gutters">
-                <div class="col-md-12">
-                    <div class="form-group mg-t--1 mg-md-t-0">
-                        <label>Description: </label>
-                        <textarea rows="3" class="form-control mg-t-20" placeholder="Some Avada Kedavra here..."></textarea>
-                    </div>
-                </div>
-                <div class="col-md-12 mg-t--1 mg-md-t-0">
-                    <button type="submit" class="btn btn-primary pd-x-20">Submit</button>
-                </div>
-            </div>
-        </form>
+        <div class="section-wrapper">
+            <h3>{{ $hotel->hotel_name }}</h3>
+            <h5>{{ $hotel->stars }}</h5>
+            <h5>{{ $hotel->city }}</h5>
+            <h5>{{ $hotel->latitude }}</h5>
+            <h5>{{ $hotel->longitude }}</h5>
+            <h5>{{ $hotel->price }}</h5>
+            <h5>{{ $hotel->description }}</h5>
+            <img src="{{ url('images/'.$hotel->image) }}"/>
+        </div>
 
     </div><!-- container -->
 </div><!-- slim-mainpanel -->
