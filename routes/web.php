@@ -32,21 +32,19 @@ Route::get('admin', function () {
 
 // admin - flights
 
-Route::get('admin/flights/list-flight', function () {
-    return view('admin/flights/list-flight');
-});
+Route::get('admin/flights/list-flight', 'Admin\FlightsController@index');
 
-Route::get('admin/flights/create-flight', function () {
-    return view('admin/flights/create-flight');
-});
+Route::get('admin/flights/create-flight', 'Admin\FlightsController@create');
 
-Route::get('admin/flights/edit-flight', function () {
-    return view('admin/flights/edit-flight');
-});
+Route::post('admin/flights/list-flight', 'Admin\FlightsController@store');
 
-Route::get('admin/flights/view-flight', function () {
-    return view('admin/flights/view-flight');
-});
+Route::get('admin/flights/view-flight/{id}', 'Admin\FlightsController@show');
+
+Route::get('admin/flights/edit-flight/{id}', 'Admin\FlightsController@edit');
+
+Route::put('admin/flights/list-flight/{id}', 'Admin\FlightsController@update');
+
+Route::delete('admin/flights/list-flight/{id}', 'Admin\FlightsController@destroy');
 
 // admin - hotels
 

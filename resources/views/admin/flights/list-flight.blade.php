@@ -34,55 +34,24 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Company</td>
-                        <td>Airplane type</td>
-                        <td>Dep. time</td>
-                        <td>Ar. time</td>
-                        <td>Price</td>
-                        <td>Dest. point</td>
-                        <td>Dep. point</td>
-                        <td>Passengers</td>
-                        <td>
-                            <a href="{{ url('admin/flights/view-flight') }}" style="margin-right: 10px"><i class="fa fa-eye"></i></a>
-                            <a href="{{ url('admin/flights/edit-flight') }}" style="margin-right: 10px"><i class="fa fa-pencil"></i></a>
-                            <a href="#" style="margin-right: 10px"><i class="icon ion-trash-a"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Company</td>
-                        <td>Airplane type</td>
-                        <td>Dep. time</td>
-                        <td>Ar. time</td>
-                        <td>Price</td>
-                        <td>Dest. point</td>
-                        <td>Dep. point</td>
-                        <td>Passengers</td>
-                        <td>
-                            <a href="#" style="margin-right: 10px"><i class="fa fa-eye"></i></a>
-                            <a href="#" style="margin-right: 10px"><i class="fa fa-pencil"></i></a>
-                            <a href="#" style="margin-right: 10px"><i class="icon ion-trash-a"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Company</td>
-                        <td>Airplane type</td>
-                        <td>Dep. time</td>
-                        <td>u. time</td>
-                        <td>Price</td>
-                        <td>Dest. point</td>
-                        <td>Dep. point</td>
-                        <td>Passengers</td>
-                        <td>
-                            <a href="#" style="margin-right: 10px"><i class="fa fa-eye"></i></a>
-                            <a href="#" style="margin-right: 10px"><i class="fa fa-pencil"></i></a>
-                            <a href="#" style="margin-right: 10px"><i class="icon ion-trash-a"></i></a>
-                        </td>
-                    </tr>
-                    </tbody>
+                    @foreach ($flights as $flight)
+                        <tr>
+                            <th scope="row">{{ $flight->id }}</th>
+                            <td>{{ $flight->company_name }}</td>
+                            <td>{{ $flight->airplane_type }}</td>
+                            <td>{{ $flight->departure_time }}</td>
+                            <td>{{ $flight->return_time }}</td>
+                            <td>{{ $flight->price }}</td>
+                            <td>{{ $flight->destination_point }}</td>
+                            <td>{{ $flight->departure_time }}</td>
+                            <td>{{ $flight->passengers }}</td>
+                            <td>
+                                <a href="{{ url('admin/flights/view-flight/'.$flight->id) }}" style="margin-right: 10px"><i class="fa fa-eye"></i></a>
+                                <a href="{{ url('admin/flights/edit-flight/'.$flight->id) }}" style="margin-right: 10px"><i class="fa fa-pencil"></i></a>
+                                <a class="delete-link" href="javascript:void(0);" data-url="{{url('admin/flights/list-flight/'.$flight->id)}}" data-return-url="{{url('admin/flights/list-flight/')}}" style="margin-right: 10px"><i class="icon ion-trash-a"></i></a>
+                            </td>
+                        </tr>
+                    @endforeach
                 </table>
             </div><!-- table-responsive -->
         </div><!-- section-wrapper -->
@@ -92,5 +61,5 @@
 @endsection
 
 @section('scripts')
-
+    <script src="{{ asset('admin/js/slim.js') }}"></script>
 @endsection

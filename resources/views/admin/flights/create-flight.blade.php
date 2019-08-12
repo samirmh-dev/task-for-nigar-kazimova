@@ -13,18 +13,21 @@
             <h6 class="slim-pagetitle">Create Flights</h6>
         </div><!-- slim-pageheader -->
 
-        <form action="form-validation.html" data-parsley-validate>
+        <form action="{{ url('admin/flights/list-flight') }}" method="POST" data-parsley-validate>
+            @csrf
             <div class="row no-gutters wd-300">
                 <div class="col-md-12">
                     <div class="form-group mg-t--1 mg-md-t-0">
                         <label>Company name: <span class="tx-danger">*</span></label>
-                        <input type="text" name="company-name" class="form-control wd-250" placeholder="Hogwarts..." required>
+                        <input type="text" name="company_name" class="form-control wd-250" placeholder="Hogwarts..." required>
+                        <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('company_name')}}</span>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="form-group mg-t--1 mg-md-t-0">
                         <label>Airplane type: <span class="tx-danger">*</span></label>
-                        <input type="text" name="airplane-type" class="form-control wd-250" placeholder="Broom..." required>
+                        <input type="text" name="airplane_type" class="form-control wd-250" placeholder="Broom..." required>
+                        <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('airplane_type')}}</span>
                     </div>
                 </div>
                 <div class="col-md-12 mg-b-30">
@@ -35,7 +38,8 @@
                                 <i class="icon ion-calendar tx-16 lh-0 op-6"></i>
                             </div>
                         </div>
-                        <input type="text" class="form-control fc-datepicker" name="derarture" placeholder="MM/DD/YYYY">
+                        <input type="text" class="form-control fc-datepicker" name="departure_time" placeholder="MM/DD/YYYY">
+                        <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('departure_time')}}</span>
                     </div>
                 </div>
                 <div class="col-md-12 mg-b-30">
@@ -47,30 +51,35 @@
                             </div>
                         </div>
                         <input type="text" class="form-control fc-datepicker" placeholder="MM/DD/YYYY" name="return">
+                        <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('return')}}</span>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="form-group mg-t--1 mg-md-t-0">
                         <label>Price: <span class="tx-danger">*</span></label>
                         <input type="text" name="price" class="form-control wd-250" placeholder="How much galleons?" required>
+                        <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('price')}}</span>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="form-group mg-t--1 mg-md-t-0">
                         <label>Destination Point: <span class="tx-danger"></span></label>
-                        <input type="text" name="destination" class="form-control wd-250" placeholder="Amsterdam..." required>
+                        <input type="text" name="destination_point" class="form-control wd-250" placeholder="Amsterdam..." required>
+                        <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('destination_point')}}</span>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="form-group mg-t--1 mg-md-t-0">
                         <label>Departure Point: <span class="tx-danger"></span></label>
-                        <input type="text" name="departure-point" class="form-control wd-250" placeholder="Baku..." required>
+                        <input type="text" name="departure_point" class="form-control wd-250" placeholder="Baku..." required>
+                        <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('departure_point')}}</span>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="form-group mg-t--1 mg-md-t-0">
                         <label>Passengers: <span class="tx-danger"></span></label>
                         <input type="number" name="passengers" class="form-control wd-250" placeholder="2..." required>
+                        <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('passengers')}}</span>
                     </div>
                 </div>
             </div>
@@ -79,6 +88,7 @@
                     <div class="form-group mg-t--1 mg-md-t-0">
                         <label>Description: </label>
                         <textarea rows="3" class="form-control mg-t-20" placeholder="Some Avada Kedavra here..." name="description"></textarea>
+                        <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('description')}}</span>
                     </div>
                 </div>
                 <div class="col-md-12 mg-t--1 mg-md-t-0">

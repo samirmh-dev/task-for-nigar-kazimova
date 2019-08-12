@@ -17,9 +17,9 @@ class CreateFlightsTable extends Migration
             $table->bigIncrements('id');
             $table->text('company_name');
             $table->text('airplane_type');
-            $table->date('departure_time');
-            $table->date('return_time');
-            $table->float('price');
+            $table->timestamp('departure_time');
+            $table->timestamp('return_time');
+            $table->double('price');
             $table->text('destination_point');
             $table->text('departure_point');
             $table->integer('passengers');
