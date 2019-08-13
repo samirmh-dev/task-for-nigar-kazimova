@@ -38,7 +38,7 @@
                         <td>{{ $hotel->hotel_name }}</td>
                         <td>{{ $hotel->stars }}</td>
                         <td>{{ $hotel->city }}</td>
-                        <td>{{ $hotel->latitude }}, {{ $hotel->longitude }}</td>
+                        <td>{{ $hotel->address }}</td>
                         <td>{{ $hotel->price }}</td>
                         <td>{{ $hotel->rooms }}</td>
                         <td>

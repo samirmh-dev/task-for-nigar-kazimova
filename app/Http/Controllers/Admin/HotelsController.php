@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\City;
 use App\Hotel;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Image;
+use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\File;
@@ -31,6 +33,14 @@ class HotelsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    private $photos_path;
+
+    public function __construct()
+    {
+        $this->photos_path = public_path('/images');
+    }
+
     public function create()
     {
         return view('admin.hotels.create-hotel');
@@ -55,52 +65,58 @@ class HotelsController extends Controller
 
         $hotel = new Hotel();
 
+
         $hotel->hotel_name = $request->hotel_name;
         $hotel->stars = $request->stars;
         $hotel->city = $request->city;
-        $hotel->latitude = $request->latitude;
-        $hotel->longitude = $request->longitude;
+        $hotel->address = $request->address;
         $hotel->price = $request->price;
         $hotel->rooms = $request->rooms;
+        $hotel->departure_time = Carbon::parse($request->departure_time);
+        $hotel->return_time = Carbon::parse($request->return_time);
         $hotel->description = $request->description;
 
-//        dd($_FILES);
-//
-//        $input = Input::all();
-//        $rules = array(
-//            'file' => 'image|max:3000',
-//        );
-//
-//        $validation = Validator::make($input, $rules);
-//
-//        if ($validation->fails())
-//        {
-//            return Response::make($validation->errors->first(), 400);
+//        $photos = $request->file('file');
+
+//        if (!is_array($photos)) {
+//            $photos = [$photos];
 //        }
 //
-//        $file = Input::file('file');
+//        if (!is_dir($this->photos_path)) {
+//            mkdir($this->photos_path, 0777);
+//        }
 //
-//        $extension = File::extension($file['name']);
-//        $directory = public_path('images/'.sha1(time()));
-//        $filename = sha1(time().time()).".{$extension}";
+//        for ($i = 0; $i < count($photos); $i++) {
+//            $photo = $photos[$i];
+//            $name = sha1(date('YmdHis') . str_random(30));
+//            $save_name = $name . '.' . $photo->getClientOriginalExtension();
+//            $resize_name = $name . str_random(2) . '.' . $photo->getClientOriginalExtension();
 //
-//        //$upload_success = Input::upload('file', $directory, $filename);
+//            Image::make($photo)
+//                ->resize(600, null, function ($constraints) {
+//                    $constraints->aspectRatio();
+//                })
+//                ->save($this->photos_path . '/' . $resize_name);
+//
+//            $photo->move($this->photos_path, $save_name);
+//
+//            $upload = new Upload();
+//            $upload->filename = $save_name;
+//            $upload->resized_name = $resize_name;
+//            $upload->original_name = basename($photo->getClientOriginalName());
+//            $upload->save();
 
-//        Image::make($request->file->getRealPath())->resize(600, null, function($constraint){
-//            $constraint->aspectRatio();
-//        })->save(public_path('images/'.$filename));
+            if ($request->hasFile('image')) {
+                $filename = time() . '.' . $request->image->getClientOriginalExtension();
+                $path_600 = public_path('images/' . $filename);
+                Image::make($request->image->getRealPath())->resize(600, null, function ($constraint) {
+                    $constraint->aspectRatio();
+                })->save($path_600);
+                $hotel->image = $filename;
+            }
+            $hotel->save();
 
-        if ($request->hasFile('image')) {
-            $filename = time() . '.' . $request->image->getClientOriginalExtension();
-            $path_600 = public_path('images/' . $filename);
-            Image::make($request->image->getRealPath())->resize(600, null, function ($constraint) {
-                $constraint->aspectRatio();
-            })->save($path_600);
-            $hotel->image = $filename;
-        }
-        $hotel->save();
-
-        return redirect('admin/hotels/list-hotel');
+            return redirect('admin/hotels/list-hotel');
     }
 
     /**
@@ -156,10 +172,11 @@ class HotelsController extends Controller
         $hotel->hotel_name = $request->hotel_name;
         $hotel->stars = $request->stars;
         $hotel->city = $request->city;
-        $hotel->latitude = $request->latitude;
-        $hotel->longitude = $request->longitude;
+        $hotel->address = $request->address;
         $hotel->price = $request->price;
         $hotel->rooms = $request->rooms;
+        $hotel->departure_time = Carbon::parse($request->departure_time);
+        $hotel->return_time = Carbon::parse($request->return_time);
         $hotel->description = $request->description;
 
         if ($request->hasFile('image')) {

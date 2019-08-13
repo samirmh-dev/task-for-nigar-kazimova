@@ -18,8 +18,9 @@ class CreateHotelsTable extends Migration
             $table->text('hotel_name');
             $table->integer('stars');
             $table->text('city');
-            $table->text('latitude');
-            $table->text('longitude');
+            $table->text('address');
+            $table->timestamp('departure_time');
+            $table->timestamp('return_time');
             $table->float('price');
             $table->integer('rooms');
             $table->text('description');

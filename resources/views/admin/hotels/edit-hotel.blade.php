@@ -13,7 +13,7 @@
                 <h6 class="slim-pagetitle">Edit Hotel</h6>
             </div><!-- slim-pageheader -->
 
-            <form action="{{ url('admin/hotels/list-hotel/'.$hotel->id) }}" method="post" data-parsley-validate class="dropzone" id="mydz">
+            <form autocomplete="off" action="{{ url('admin/hotels/list-hotel/'.$hotel->id) }}" method="post" data-parsley-validate id="mydz">
                 @csrf
                 @method('put')
                 <div class="row no-gutters wd-300">
@@ -45,18 +45,11 @@
                             <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('price')}}</span>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <div class="form-group mg-t--1 mg-md-t-0">
-                            <label>Latitude: <span class="tx-danger"></span></label>
-                            <input type="text" name="latitude" class="form-control wd-250" placeholder="0.000000" required value="{{old('latitude', $hotel->latitude)}}">
-                            <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('latitude')}}</span>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group mg-t--1 mg-md-t-0">
-                            <label>Longitude: <span class="tx-danger"></span></label>
-                            <input type="text" name="longitude" class="form-control wd-250" placeholder="0.000000" required value="{{old('longitude', $hotel->longitude)}}">
-                            <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('longitude')}}</span>
+                            <label>Map link: <span class="tx-danger"></span></label>
+                            <input type="text" name="address" class="form-control wd-250" placeholder="0.000000, 0.00000" required value="{{old('address', $hotel->address)}}">
+                            <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('address')}}</span>
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -66,15 +59,30 @@
                             <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('rooms')}}</span>
                         </div>
                     </div>
-                    {{--<div class="col-md-12">--}}
-                        {{--<style>--}}
-
-                        {{--</style>--}}
-                        {{--<label>Image: </label>--}}
-                        {{--<div class="form-group mg-t--1 mg-md-t-0" id="dropzoneDiv">--}}
-                            {{--<div style="float:right; width:100%; height:150px; text-align:center; border: 1px dashed #888; padding: 0px; margin-bottom: 20px" class="dropzone-previews" id="showhere">Drop image here</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
+                    <div class="col-md-12 mg-b-30">
+                        <label>Departure time: <span class="tx-danger">*</span></label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="icon ion-calendar tx-16 lh-0 op-6"></i>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control fc-datepicker" name="departure_time" placeholder="MM/DD/YYYY" value="{{old('departure_time', $hotel->departure_time)}}">
+                            <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('departure_time')}}</span>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mg-b-30">
+                        <label>Return time:</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="icon ion-calendar tx-16 lh-0 op-6"></i>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control fc-datepicker" placeholder="MM/DD/YYYY" name="return_time" value="{{old('return_time', $hotel->return_time)}}">
+                            <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('return_time')}}</span>
+                        </div>
+                    </div>
                     <div class="col-md-12">
                         <div class="form-group mg-t--1 mg-md-t-0">
                             <label>Image: <span class="tx-danger"></span></label>

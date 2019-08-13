@@ -13,7 +13,7 @@
             <h6 class="slim-pagetitle">Edit Flights</h6>
         </div><!-- slim-pageheader -->
 
-        <form action="{{ url('admin/flights/list-flight/'.$flight->id) }}" method="post" data-parsley-validate>
+        <form autocomplete="off" action="{{ url('admin/flights/list-flight/'.$flight->id) }}" method="post" data-parsley-validate>
             @csrf
             @method('put')
             <div class="row no-gutters wd-300">
@@ -77,15 +77,19 @@
                 <div class="col-md-12">
                     <div class="form-group mg-t--1 mg-md-t-0">
                         <label>Destination Point: <span class="tx-danger"></span></label>
-                        <input type="text" name="destination_point" class="form-control wd-250" placeholder="Amsterdam..." required value="{{old('destination_point', $flight->destination_point)}}">
+                        <div class="autocomplete" style="width:300px;">
+                        <input id="destinationPoint" type="text" name="destination_point" class="form-control wd-250" placeholder="Amsterdam..." required value="{{old('destination_point', $flight->destination_point)}}">
                         <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('destination_point')}}</span>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="form-group mg-t--1 mg-md-t-0">
+                        <div class="autocomplete" style="width:300px;">
                         <label>Departure Point: <span class="tx-danger"></span></label>
-                        <input type="text" name="departure_point" class="form-control wd-250" placeholder="Baku..." required value="{{old('departure_point', $flight->departure_point)}}">
+                        <input id="departurePoint" type="text" name="departure_point" class="form-control wd-250" placeholder="Baku..." required value="{{old('departure_point', $flight->departure_point)}}">
                         <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('departure_point')}}</span>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-12">

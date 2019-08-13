@@ -17,9 +17,7 @@ Route::get('/', 'SearchController@index');
 
 Route::get('flight-results', 'SearchController@flightResults');
 
-Route::get('hotel-results', function () {
-    return view('hotel-results');
-});
+Route::get('hotel-results', 'SearchController@hotelResults');
 
 
 // Admin panel pages
@@ -61,3 +59,15 @@ Route::put('admin/hotels/list-hotel/{id}', 'Admin\HotelsController@update');
 Route::delete('admin/hotels/list-hotel/{id}', 'Admin\HotelsController@destroy');
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+// login
+
+// route to show the login form
+Route::get('login', array('uses' => 'HomeController@showLogin'));
+
+// route to process the form
+Route::post('login', array('uses' => 'HomeController@doLogin'));
+
+// logout
+
+Route::get('logout', array('uses' => 'HomeController@doLogout'));
