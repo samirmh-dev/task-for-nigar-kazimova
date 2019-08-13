@@ -8,20 +8,22 @@
 	<!-- Stylesheets
 	============================================= -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="css/style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="{{ url('css/bootstrap.css') }}" type="text/css" />
+	<link rel="stylesheet" href="{{ url('css/style.css') }}" type="text/css" />
+	<link rel="stylesheet" href="{{ url('css/dark.css') }}" type="text/css" />
 
 	<!-- Travel Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="css/travel.css" type="text/css" />
-	<link rel="stylesheet" href="css/datepicker.css" type="text/css" />
+	<link rel="stylesheet" href="{{ url('css/travel.css') }}" type="text/css" />
+	<link rel="stylesheet" href="{{ url('css/datepicker.css') }}" type="text/css" />
 	<!-- / -->
 
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="{{ url('css/font-icons.css') }}" type="text/css" />
+	<link rel="stylesheet" href="{{ url('css/animate.css') }}" type="text/css" />
+	<link rel="stylesheet" href="{{ url('css/magnific-popup.css') }}" type="text/css" />
 
-	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<link rel="stylesheet" href="{{ url('css/responsive.css') }}" type="text/css" />
+
+	<link rel="stylesheet" href="{{ url('admin/css/slim.css') }}">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<!-- Document Title
@@ -70,32 +72,36 @@
 											<h4 class="fleft">Book your Flights</h4>
 											<div class="clear"></div>
 										</div>
-										<form action="#" method="post" class="nobottommargin">
+										<form action="{{ url('flight-results') }}" method="get" class="nobottommargin">
 											<div class="row">
 												<div class="col-md-6 col-12 bottommargin-sm">
 													<label for="">From</label>
-													<input type="text" value="" class="sm-form-control" placeholder="Eg. Melbourne, Australia">
+													<input name="departure_point" type="text" value="" class="sm-form-control" placeholder="Eg. Melbourne, Australia">
 												</div>
 												<div class="col-md-6 col-12 bottommargin-sm">
 													<label for="">To</label>
-													<input type="text" value="" class="sm-form-control" placeholder="Eg. New York, United States">
+													<input name="destination_point" type="text" value="" class="sm-form-control" placeholder="Eg. New York, United States">
 												</div>
 												<div class="clear"></div>
 												<div class="input-daterange travel-date-group col-md-9 bottommargin-sm">
 													<div class="row">
 														<div class="col-md-6 col-6">
 															<label for="">Departure</label>
-															<input type="text" value="" class="sm-form-control tleft" name="start" placeholder="MM/DD/YYYY">
+															<div class="input-group">
+																<input type="text" class="tleft form-control fc-datepicker" name="departure_time" placeholder="MM/DD/YYYY">
+															</div>
 														</div>
 														<div class="col-md-6 col-6">
 															<label for="">Return</label>
-															<input type="text" value="" class="sm-form-control tleft" name="end" placeholder="MM/DD/YYYY">
+															<div class="input-group">
+																<input type="text" class="form-control tleft fc-datepicker" placeholder="MM/DD/YYYY" name="return">
+															</div>
 														</div>
 													</div>
 												</div>
 												<div class="col-md-3 bottommargin-sm">
 													<label for="">Adults</label>
-													<input type="number" min="1" max="10" value="" class="sm-form-control" name="end" placeholder="2">
+													<input type="number" min="1" max="10" value="" class="sm-form-control" name="passengers" placeholder="2">
 												</div>
 												<div class="col-md-12">
 													<button class="button button-3d nomargin rightmargin-sm">Search Flights</button>
@@ -147,15 +153,37 @@
 
 	<!-- External JavaScripts
 	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.js"></script>
+	<script src="{{ asset('js/jquery.js') }}"></script>
+	<script src="{{ asset('js/plugins.js') }}"></script>
 
 	<!-- Travel Demo Specific Script -->
-	<script src="js/datepicker.js"></script>
+	<script src="{{ asset('js/datepicker.js') }}"></script>
 	<!-- / -->
 
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="js/functions.js"></script>
+
+	<script src="{{ asset('admin/lib/moment/js/moment.js') }}"></script>
+	<script src="{{ asset('admin/lib/jquery-ui/js/jquery-ui.js') }}"></script>
+
+	<script>
+		$(function(){
+			'use strict';
+
+			// Datepicker
+			$('.fc-datepicker').datepicker({
+				showOtherMonths: true,
+				selectOtherMonths: true
+			});
+
+			$('#datepickerNoOfMonths').datepicker({
+				showOtherMonths: true,
+				selectOtherMonths: true,
+				numberOfMonths: 2
+			});
+
+		});
+	</script>
 </body>
 </html>

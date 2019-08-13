@@ -43,7 +43,7 @@
                             <td>{{ $flight->return_time }}</td>
                             <td>{{ $flight->price }}</td>
                             <td>{{ $flight->destination_point }}</td>
-                            <td>{{ $flight->departure_time }}</td>
+                            <td>{{ $flight->departure_point }}</td>
                             <td>{{ $flight->passengers }}</td>
                             <td>
                                 <a href="{{ url('admin/flights/view-flight/'.$flight->id) }}" style="margin-right: 10px"><i class="fa fa-eye"></i></a>

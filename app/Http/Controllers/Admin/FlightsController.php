@@ -45,6 +45,7 @@ class FlightsController extends Controller
             'company_name' => 'required|min:3|max:255',
             'airplane_type' => 'required|min:3|max:255',
             'departure_time' => 'required',
+            'estimate_arrival' => 'required',
             'price' => 'required',
         ];
 
@@ -56,6 +57,7 @@ class FlightsController extends Controller
         $flight->airplane_type = $request->airplane_type;
         $flight->departure_time = Carbon::parse($request->departure_time);
         $flight->return_time = Carbon::parse($request->return_time);
+        $flight->estimate_arrival = Carbon::parse($request->estimate_arrival);
         $flight->price = $request->price;
         $flight->destination_point = $request->destination_point;
         $flight->departure_point = $request->departure_point;
@@ -103,6 +105,7 @@ class FlightsController extends Controller
             'company_name' => 'required|min:3|max:255',
             'airplane_type' => 'required|min:3|max:255',
             'departure_time' => 'required',
+            'estimate_arrival' => 'required',
             'price' => 'required',
         ];
 
@@ -114,6 +117,7 @@ class FlightsController extends Controller
         $flight->airplane_type = $request->airplane_type;
         $flight->departure_time = Carbon::parse($request->departure_time);
         $flight->return_time = Carbon::parse($request->return_time);
+        $flight->estimate_arrival = Carbon::parse($request->estimate_arrival);
         $flight->price = $request->price;
         $flight->destination_point = $request->destination_point;
         $flight->departure_point = $request->departure_point;

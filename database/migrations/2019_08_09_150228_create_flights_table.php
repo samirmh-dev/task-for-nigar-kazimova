@@ -18,6 +18,7 @@ class CreateFlightsTable extends Migration
             $table->text('company_name');
             $table->text('airplane_type');
             $table->timestamp('departure_time');
+            $table->timestamp('estimate_arrival');
             $table->timestamp('return_time');
             $table->double('price');
             $table->text('destination_point');

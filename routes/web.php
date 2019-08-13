@@ -11,20 +11,18 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+// Routes to Index and Search Results pages
 
-Route::get('flight-results', function () {
-    return view('flight-results');
-});
+Route::get('/', 'SearchController@index');
+
+Route::get('flight-results', 'SearchController@flightResults');
 
 Route::get('hotel-results', function () {
     return view('hotel-results');
 });
 
 
-// admin pages
+// Admin panel pages
 
 Route::get('admin', function () {
     return view('admin/index');

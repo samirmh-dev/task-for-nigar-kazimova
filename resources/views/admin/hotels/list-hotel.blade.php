@@ -27,6 +27,7 @@
                         <th>City</th>
                         <th>Location</th>
                         <th>Price</th>
+                        <th>Rooms</th>
                         <th>Actions</th>
                     </tr>
                     </thead>
@@ -39,6 +40,7 @@
                         <td>{{ $hotel->city }}</td>
                         <td>{{ $hotel->latitude }}, {{ $hotel->longitude }}</td>
                         <td>{{ $hotel->price }}</td>
+                        <td>{{ $hotel->rooms }}</td>
                         <td>
                             <a href="{{ url('admin/hotels/view-hotel/'.$hotel->id) }}" style="margin-right: 10px"><i class="fa fa-eye"></i></a>
                             <a href="{{ url('admin/hotels/edit-hotel/'.$hotel->id) }}" style="margin-right: 10px"><i class="fa fa-pencil"></i></a>

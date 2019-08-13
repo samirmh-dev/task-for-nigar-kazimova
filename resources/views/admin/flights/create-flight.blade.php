@@ -50,8 +50,20 @@
                                 <i class="icon ion-calendar tx-16 lh-0 op-6"></i>
                             </div>
                         </div>
-                        <input type="text" class="form-control fc-datepicker" placeholder="MM/DD/YYYY" name="return">
-                        <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('return')}}</span>
+                        <input type="text" class="form-control fc-datepicker" placeholder="MM/DD/YYYY" name="return_time">
+                        <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('return_time')}}</span>
+                    </div>
+                </div>
+                <div class="col-md-12 mg-b-30">
+                    <label>Estimate arrival: <span class="tx-danger">*</span></label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <i class="icon ion-calendar tx-16 lh-0 op-6"></i>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control fc-datepicker" placeholder="MM/DD/YYYY" name="estimate_arrival">
+                        <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('estimate_arrival')}}</span>
                     </div>
                 </div>
                 <div class="col-md-12">

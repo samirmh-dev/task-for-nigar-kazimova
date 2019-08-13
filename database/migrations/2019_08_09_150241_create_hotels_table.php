@@ -21,6 +21,7 @@ class CreateHotelsTable extends Migration
             $table->text('latitude');
             $table->text('longitude');
             $table->float('price');
+            $table->integer('rooms');
             $table->text('description');
             $table->text('image');
             $table->timestamps();

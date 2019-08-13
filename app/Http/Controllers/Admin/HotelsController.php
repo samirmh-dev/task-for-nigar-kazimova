@@ -61,6 +61,7 @@ class HotelsController extends Controller
         $hotel->latitude = $request->latitude;
         $hotel->longitude = $request->longitude;
         $hotel->price = $request->price;
+        $hotel->rooms = $request->rooms;
         $hotel->description = $request->description;
 
 //        dd($_FILES);
@@ -158,6 +159,7 @@ class HotelsController extends Controller
         $hotel->latitude = $request->latitude;
         $hotel->longitude = $request->longitude;
         $hotel->price = $request->price;
+        $hotel->rooms = $request->rooms;
         $hotel->description = $request->description;
 
         if ($request->hasFile('image')) {

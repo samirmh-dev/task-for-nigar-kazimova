@@ -54,18 +54,25 @@
                         <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('price')}}</span>
                     </div>
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-6">
                     <div class="form-group mg-t--1 mg-md-t-0">
                         <label>Latitude: <span class="tx-danger"></span></label>
                         <input type="text" name="latitude" class="form-control wd-250" placeholder="0.000000" required>
                         <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('latitude')}}</span>
                     </div>
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-6">
                     <div class="form-group mg-t--1 mg-md-t-0">
                         <label>Longitude: <span class="tx-danger"></span></label>
                         <input type="text" name="longitude" class="form-control wd-250" placeholder="0.000000" required>
                         <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('longitude')}}</span>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group mg-t--1 mg-md-t-0">
+                        <label>Rooms: <span class="tx-danger">*</span></label>
+                        <input type="number" name="rooms" class="form-control wd-250" placeholder="5..." required>
+                        <span class="col-md-5 col-xs-2 text-danger">{{$errors->first('rooms')}}</span>
                     </div>
                 </div>
                 <div class="col-md-12">
