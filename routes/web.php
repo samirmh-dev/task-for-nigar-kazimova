@@ -19,55 +19,49 @@ Route::get('flight-results', 'SearchController@flightResults');
 
 Route::get('hotel-results', 'SearchController@hotelResults');
 
+Auth::routes();
 
-// Admin panel pages
+// Admin panel pages with auth
 
-Route::get('admin', function () {
-    return view('admin/index');
+Route::group(['middleware' => ['web', 'auth']], function () {
+
+    //Dashboard Route
+    Route::get('admin', function () {
+        return view('admin.index');
+    });
+
+    // admin - flights
+
+    Route::get('admin/flights/list-flight', 'Admin\FlightsController@index');
+
+    Route::get('admin/flights/create-flight', 'Admin\FlightsController@create');
+
+    Route::post('admin/flights/list-flight', 'Admin\FlightsController@store');
+
+    Route::get('admin/flights/view-flight/{id}', 'Admin\FlightsController@show');
+
+    Route::get('admin/flights/edit-flight/{id}', 'Admin\FlightsController@edit');
+
+    Route::put('admin/flights/list-flight/{id}', 'Admin\FlightsController@update');
+
+    Route::delete('admin/flights/list-flight/{id}', 'Admin\FlightsController@destroy');
+
+    // admin - hotels
+
+    Route::get('admin/hotels/list-hotel', 'Admin\HotelsController@index');
+
+    Route::get('admin/hotels/create-hotel', 'Admin\HotelsController@create');
+
+    Route::post('admin/hotels/list-hotel', 'Admin\HotelsController@store');
+
+    Route::get('admin/hotels/view-hotel/{id}', 'Admin\HotelsController@show');
+
+    Route::get('admin/hotels/edit-hotel/{id}', 'Admin\HotelsController@edit');
+
+    Route::put('admin/hotels/list-hotel/{id}', 'Admin\HotelsController@update');
+
+    Route::delete('admin/hotels/list-hotel/{id}', 'Admin\HotelsController@destroy');
 });
-
-// admin - flights
-
-Route::get('admin/flights/list-flight', 'Admin\FlightsController@index');
-
-Route::get('admin/flights/create-flight', 'Admin\FlightsController@create');
-
-Route::post('admin/flights/list-flight', 'Admin\FlightsController@store');
-
-Route::get('admin/flights/view-flight/{id}', 'Admin\FlightsController@show');
-
-Route::get('admin/flights/edit-flight/{id}', 'Admin\FlightsController@edit');
-
-Route::put('admin/flights/list-flight/{id}', 'Admin\FlightsController@update');
-
-Route::delete('admin/flights/list-flight/{id}', 'Admin\FlightsController@destroy');
-
-// admin - hotels
-
-Route::get('admin/hotels/list-hotel', 'Admin\HotelsController@index');
-
-Route::get('admin/hotels/create-hotel', 'Admin\HotelsController@create');
-
-Route::post('admin/hotels/list-hotel', 'Admin\HotelsController@store');
-
-Route::get('admin/hotels/view-hotel/{id}', 'Admin\HotelsController@show');
-
-Route::get('admin/hotels/edit-hotel/{id}', 'Admin\HotelsController@edit');
-
-Route::put('admin/hotels/list-hotel/{id}', 'Admin\HotelsController@update');
-
-Route::delete('admin/hotels/list-hotel/{id}', 'Admin\HotelsController@destroy');
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-// login
-
-// route to show the login form
-Route::get('login', array('uses' => 'HomeController@showLogin'));
-
-// route to process the form
-Route::post('login', array('uses' => 'HomeController@doLogin'));
-
-// logout
-
-Route::get('logout', array('uses' => 'HomeController@doLogout'));
