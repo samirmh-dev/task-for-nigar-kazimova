@@ -2,15 +2,12 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\City;
+
 use App\Hotel;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Image;
 use Illuminate\Support\Carbon;
-use Illuminate\Support\Facades\Input;
-use Illuminate\Support\Facades\Validator;
-use Illuminate\Support\Facades\File;
 
 class HotelsController extends Controller
 {
@@ -75,36 +72,6 @@ class HotelsController extends Controller
         $hotel->departure_time = Carbon::parse($request->departure_time);
         $hotel->return_time = Carbon::parse($request->return_time);
         $hotel->description = $request->description;
-
-//        $photos = $request->file('file');
-
-//        if (!is_array($photos)) {
-//            $photos = [$photos];
-//        }
-//
-//        if (!is_dir($this->photos_path)) {
-//            mkdir($this->photos_path, 0777);
-//        }
-//
-//        for ($i = 0; $i < count($photos); $i++) {
-//            $photo = $photos[$i];
-//            $name = sha1(date('YmdHis') . str_random(30));
-//            $save_name = $name . '.' . $photo->getClientOriginalExtension();
-//            $resize_name = $name . str_random(2) . '.' . $photo->getClientOriginalExtension();
-//
-//            Image::make($photo)
-//                ->resize(600, null, function ($constraints) {
-//                    $constraints->aspectRatio();
-//                })
-//                ->save($this->photos_path . '/' . $resize_name);
-//
-//            $photo->move($this->photos_path, $save_name);
-//
-//            $upload = new Upload();
-//            $upload->filename = $save_name;
-//            $upload->resized_name = $resize_name;
-//            $upload->original_name = basename($photo->getClientOriginalName());
-//            $upload->save();
 
             if ($request->hasFile('image')) {
                 $filename = time() . '.' . $request->image->getClientOriginalExtension();
@@ -182,10 +149,11 @@ class HotelsController extends Controller
         if ($request->hasFile('image')) {
             $filename = time().'.'.$request->image->getClientOriginalExtension();
             $path_600 = public_path('images/'.$filename);
-            Image::make($request->image->getRealPath())->resize(600, null, function($constraint){
+            Image::make($request->image->getRealPath())->resize(600, null, function ($constraint) {
                 $constraint->aspectRatio();
             })->save($path_600);
             $hotel->image = $filename;
+            $hotel->save();
         }
 
         $hotel->save();

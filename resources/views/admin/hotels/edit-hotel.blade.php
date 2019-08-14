@@ -13,7 +13,7 @@
                 <h6 class="slim-pagetitle">Edit Hotel</h6>
             </div><!-- slim-pageheader -->
 
-            <form autocomplete="off" action="{{ url('admin/hotels/list-hotel/'.$hotel->id) }}" method="post" data-parsley-validate id="mydz">
+            <form enctype="multipart/form-data" action="{{ url('admin/hotels/list-hotel/'.$hotel->id) }}" method="post" data-parsley-validate id="mydz">
                 @csrf
                 @method('put')
                 <div class="row no-gutters wd-300">

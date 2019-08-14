@@ -8,20 +8,23 @@
 	<!-- Stylesheets
 	============================================= -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="css/style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="{{ url('css/bootstrap.css') }}" type="text/css" />
+	<link rel="stylesheet" href="{{ url('css/style.css') }}" type="text/css" />
+	<link rel="stylesheet" href="{{ url('css/dark.css') }}" type="text/css" />
 
 	<!-- Travel Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="css/travel.css" type="text/css" />
+	<link rel="stylesheet" href="{{ url('css/travel.css') }}" type="text/css" />
+	<link rel="stylesheet" href="{{ url('css/datepicker.css') }}" type="text/css" />
+	<!-- / -->
 
-	<link rel="stylesheet" href="css/datepicker.css" type="text/css" />
+	<link rel="stylesheet" href="{{ url('css/font-icons.css') }}" type="text/css" />
+	<link rel="stylesheet" href="{{ url('css/animate.css') }}" type="text/css" />
+	<link rel="stylesheet" href="{{ url('css/magnific-popup.css') }}" type="text/css" />
 
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="{{ url('css/responsive.css') }}" type="text/css" />
 
-	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<link rel="stylesheet" href="{{ url('admin/css/slim.css') }}">
+	<link rel="stylesheet" href="{{ url('css/autocomplete.css') }}">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lt IE 9]>
 		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
@@ -158,11 +161,12 @@
 
 	<!-- External JavaScripts
 	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.js"></script>
+	<script src="{{ asset('js/jquery.js') }}"></script>
+	<script src="{{ asset('js/plugins.js') }}"></script>
 
 	<!-- Travel Demo Specific Script -->
-	<script src="js/datepicker.js"></script>
+	<script src="{{ asset('js/datepicker.js') }}"></script>
+	<!-- / -->
 
 	<!-- Footer Scripts
 	============================================= -->

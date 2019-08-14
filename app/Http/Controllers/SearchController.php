@@ -7,6 +7,7 @@ use App\Flight;
 use App\Hotel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Input;
+use Carbon\Carbon;
 
 class SearchController extends Controller
 {
@@ -20,11 +21,11 @@ class SearchController extends Controller
 
     public function flightResults(Request $request) {
 
-        $results = Flight::where('departure_point', $request->departure_point)
-            ->orWhere('destination_point', $request->destination_point)
-            ->orWhere('departure_time', $request->departure_time)
-            ->orWhere('return_time', $request->return_time)
-            ->orWhere('passengers', $request->passengers)
+        $results = Flight::where('departure_point', 'like', '%' . $request->departure_point . '%')
+            ->where('destination_point', 'like', '%' . $request->destination_point . '%')
+            ->where('departure_time', Carbon::parse($request->departure_time)->startOfDay())
+            ->where('return_time', Carbon::parse($request->return_time)->startOfDay())
+            ->where('passengers', $request->passengers)
             ->paginate(5);
 
         return view('flight-results', [
@@ -35,10 +36,10 @@ class SearchController extends Controller
 
     public function hotelResults(Request $request) {
 
-        $results = Hotel::where('city', $request->city)
-            ->orWhere('departure_time', $request->departure_time)
-            ->orWhere('return_time', $request->return_time)
-            ->orWhere('rooms', $request->rooms)
+        $results = Hotel::where('city', 'like', '%' . $request->city . '%')
+            ->where('departure_time', Carbon::parse($request->departure_time)->startOfDay())
+            ->where('return_time', Carbon::parse($request->return_time)->startOfDay())
+            ->where('rooms', $request->rooms)
             ->paginate(5);
 
         $city = $request->city;

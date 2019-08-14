@@ -13572,4 +13572,10 @@ body:not(.no-transition) #wrapper,
 	text-shadow: none !important;
 }
 
+.image_fade {
+	object-fit: cover;
+	height: 300px;
+	width: 400px;
+}
+
 
