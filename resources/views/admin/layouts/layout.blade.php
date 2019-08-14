@@ -66,6 +66,7 @@
                     <nav class="nav">
                         <a href="{{url('/logout')}}" onclick="event.preventDefault();document.getElementById('logout-form').submit();" class="nav-link"><i class="icon ion-forward"></i> Sign Out</a>
                     </nav>
+                    <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">{{ csrf_field() }}</form>
                 </div><!-- dropdown-menu -->
             </div><!-- dropdown -->
         </div><!-- header-right -->
